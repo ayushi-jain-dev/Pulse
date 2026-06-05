@@ -300,6 +300,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
   padding: 10px 0 2px;
 }
 
@@ -313,13 +314,16 @@ button {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .search {
   display: flex;
   align-items: center;
   gap: 12px;
-  min-width: min(100%, 390px);
+  flex: 1 1 320px;
+  min-width: 0;
   padding: 12px 16px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
@@ -356,6 +360,7 @@ button {
 
 .icon-button {
   position: relative;
+  flex: 0 0 auto;
   width: 48px;
   height: 48px;
   border-radius: 50%;
