@@ -43,8 +43,8 @@ export function ProfilePage() {
                 .toUpperCase()}
             </div>
             <div>
-              <h2>{profile?.name ?? user?.name ?? "Akshay Jain"}</h2>
-              <p>{profile?.handle ?? user?.email ?? "@akshay.creates"}</p>
+              <h2>{profile?.name ?? user?.name ?? "Ayushi Jain"}</h2>
+              <p>{profile?.handle ?? user?.email ?? "@ayushi.creates"}</p>
             </div>
           </div>
 

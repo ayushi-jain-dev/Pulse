@@ -12,7 +12,7 @@ interface SidebarProps {
 const tabs: FeedTab[] = ["For you", "Following", "Trending"];
 
 function getInitials(user: AuthUser | null) {
-  const source = user?.name ?? "Akshay Jain";
+  const source = user?.name ?? "Ayushi Jain";
   return source
     .split(" ")
     .map((part) => part.trim()[0])
@@ -67,8 +67,8 @@ export function Sidebar({ activeTab, onTabChange, user, onLogout }: SidebarProps
         <div className="profile-row">
           <div className="avatar avatar-large">{getInitials(user)}</div>
           <div>
-            <h2>{user?.name ?? "Akshay Jain"}</h2>
-            <p>{user?.email ?? "@akshay.creates"}</p>
+            <h2>{user?.name ?? "Ayushi Jain"}</h2>
+            <p>{user?.email ?? "@Ayushi.creates"}</p>
           </div>
         </div>
         <div className="profile-stats">

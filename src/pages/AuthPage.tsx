@@ -73,7 +73,7 @@ export function AuthPage({ mode }: AuthPageProps) {
           {mode === "signup" ? (
             <label>
               <span>Name</span>
-              <input value={name} onChange={(event) => setName(event.target.value)} placeholder="Akshay Jain" />
+              <input value={name} onChange={(event) => setName(event.target.value)} placeholder="Ayushi Jain" />
             </label>
           ) : null}
 

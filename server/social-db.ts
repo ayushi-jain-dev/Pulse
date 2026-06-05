@@ -88,8 +88,8 @@ const defaultDb: SocialDb = {
     },
   ],
   profile: {
-    name: "Akshay Jain",
-    handle: "@akshay.creates",
+    name: "Ayushi Jain",
+    handle: "@Ayushi.creates",
     bio: "Building social experiences with a focus on clarity, community, and fast iteration.",
     followers: "18.4K",
     following: "312",

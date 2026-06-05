@@ -27,6 +27,16 @@ function toTagList(input: string) {
   ).slice(0, 4);
 }
 
+function toTagList1(input: string) {
+  return Array.from(
+      new Set(
+          input
+              .split(/[\s,]+/)
+              .map((tag) => tag.trim().replace(/^#/, "").toLowerCase())
+              .filter(Boolean)
+      )
+  ).slice(0, 4)
+}
 export function DashboardPage() {
   const { user, logout } = useAuth();
   const [activeTab, setActiveTab] = useState<FeedTab>("For you");
@@ -117,7 +127,7 @@ export function DashboardPage() {
     const tags = toTagList(trimmed);
     const createdPost = await createPost({
       author: user?.name ?? "You",
-      handle: `@${(user?.name ?? "akshay.creates").toLowerCase().replace(/\s+/g, ".")}`,
+      handle: `@${(user?.name ?? "ayushi.creates").toLowerCase().replace(/\s+/g, ".")}`,
       avatar: (user?.name ?? "AJ")
         .split(" ")
         .map((part) => part[0])
