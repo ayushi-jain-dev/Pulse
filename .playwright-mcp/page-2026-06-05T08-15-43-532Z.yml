@@ -1,0 +1,194 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: P
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Social
+        - heading "Pulse" [level=1] [ref=e9]
+    - navigation "Feed filters" [ref=e10]:
+      - button "For you" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: For you
+      - button "Following" [ref=e13] [cursor=pointer]:
+        - generic [ref=e14]: Following
+      - button "Trending 128" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Trending
+        - strong [ref=e17]: "128"
+    - generic [ref=e18]:
+      - paragraph [ref=e19]: Your profile
+      - generic [ref=e20]:
+        - generic [ref=e21]: AJ
+        - generic [ref=e22]:
+          - heading "Akshay Jain" [level=2] [ref=e23]
+          - paragraph [ref=e24]: "@akshay.creates"
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - strong [ref=e27]: 18.4K
+          - text: followers
+        - generic [ref=e28]:
+          - strong [ref=e29]: "412"
+          - text: posts
+        - generic [ref=e30]:
+          - strong [ref=e31]: 89%
+          - text: engagement
+    - generic [ref=e32]:
+      - paragraph [ref=e33]: Creator tip
+      - paragraph [ref=e34]: Keep one clear action per screen. It makes the feed feel composed instead of crowded.
+  - main [ref=e35]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: Welcome back
+        - heading "Your feed is live" [level=2] [ref=e39]
+      - generic [ref=e40]:
+        - generic "Search posts" [ref=e41]:
+          - generic [ref=e42]: Search
+          - searchbox "Search posts" [ref=e43]
+        - button "Notifications" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: "3"
+          - text: ◌
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: Pulse command center
+        - heading "Build a feed that feels fast, focused, and easy to come back to." [level=2] [ref=e49]
+        - paragraph [ref=e50]: A mix of fresh and featured posts. Search to narrow the conversation, post an update, or switch tabs to see a different rhythm.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - strong [ref=e53]: "4"
+          - text: visible posts
+        - generic [ref=e54]:
+          - strong [ref=e55]: "4"
+          - text: total posts
+        - generic [ref=e56]:
+          - strong [ref=e57]: Live
+          - text: community mode
+    - region "Stories" [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: Highlights
+          - heading "Stories" [level=3] [ref=e62]
+        - button "View all" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - article [ref=e65]:
+          - generic [ref=e67]: A
+          - heading "Ari" [level=4] [ref=e68]
+          - paragraph [ref=e69]: "@ari.design"
+          - generic [ref=e70]: Live
+        - article [ref=e71]:
+          - generic [ref=e73]: "N"
+          - heading "Nora" [level=4] [ref=e74]
+          - paragraph [ref=e75]: "@nora.codes"
+        - article [ref=e76]:
+          - generic [ref=e78]: K
+          - heading "Kian" [level=4] [ref=e79]
+          - paragraph [ref=e80]: "@kian.motion"
+        - article [ref=e81]:
+          - generic [ref=e83]: M
+          - heading "Mira" [level=4] [ref=e84]
+          - paragraph [ref=e85]: "@mira.photos"
+        - article [ref=e86]:
+          - generic [ref=e88]: J
+          - heading "Jules" [level=4] [ref=e89]
+          - paragraph [ref=e90]: "@jules.builds"
+    - region "Share an update" [ref=e91]:
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: Compose
+        - heading "Share an update" [level=3] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]: Post content
+        - textbox "Post content" [ref=e98]:
+          - /placeholder: What are you building, learning, or celebrating today?
+      - generic [ref=e99]:
+        - generic "Post hints" [ref=e100]:
+          - generic [ref=e101]: "Tips: keep it focused"
+          - generic [ref=e102]: "Use a tag like #buildinpublic"
+        - button "Post update" [ref=e103] [cursor=pointer]
+    - region "For you" [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - paragraph [ref=e107]: Feed
+          - heading "For you" [level=3] [ref=e108]
+        - button "4 posts" [ref=e109] [cursor=pointer]
+      - generic [ref=e110]:
+        - article [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: AQ
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - heading "Avery Quinn" [level=4] [ref=e117]
+                  - generic [ref=e118]: Following
+                - paragraph [ref=e119]: "@avery.quinn · 12m"
+            - button "More options for Avery Quinn" [ref=e120] [cursor=pointer]: ⋯
+          - paragraph [ref=e121]: "Shipped a tiny but mighty dashboard update today. The rule: every screen needs a clear focal point, a calm surface, and one delightful edge."
+          - generic [ref=e123]:
+            - paragraph [ref=e124]: Launch note
+            - heading "A soft-glow layout can still feel energetic when the accent system is tight." [level=5] [ref=e125]
+          - generic "Tags" [ref=e126]:
+            - generic [ref=e127]: "#product"
+            - generic [ref=e128]: "#ui"
+            - generic [ref=e129]: "#ship"
+          - generic [ref=e130]:
+            - button "♥ 382" [ref=e131] [cursor=pointer]
+            - button "💬 41" [ref=e132] [cursor=pointer]
+            - button "↻ 12" [ref=e133] [cursor=pointer]
+            - button "⌁ 65" [ref=e134] [cursor=pointer]
+        - article [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: MS
+              - generic [ref=e139]:
+                - heading "Mila Stone" [level=4] [ref=e141]
+                - paragraph [ref=e142]: "@mila.stone · 44m"
+            - button "More options for Mila Stone" [ref=e143] [cursor=pointer]: ⋯
+          - paragraph [ref=e144]: "A good feed layout is mostly about rhythm: short headlines, generous spacing, and enough contrast to keep the eye moving without fatigue."
+          - generic [ref=e146]:
+            - paragraph [ref=e147]: Layout study
+            - heading "Grid, depth, and hierarchy working together instead of competing." [level=5] [ref=e148]
+          - generic "Tags" [ref=e149]:
+            - generic [ref=e150]: "#design"
+            - generic [ref=e151]: "#layout"
+            - generic [ref=e152]: "#accessibility"
+          - generic [ref=e153]:
+            - button "♥ 214" [ref=e154] [cursor=pointer]
+            - button "💬 17" [ref=e155] [cursor=pointer]
+            - button "↻ 26" [ref=e156] [cursor=pointer]
+            - button "⌁ 31" [ref=e157] [cursor=pointer]
+        - article [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: NV
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - heading "Noah Vale" [level=4] [ref=e164]
+                  - generic [ref=e165]: Following
+                - paragraph [ref=e166]: "@noah.vale · 2h"
+            - button "More options for Noah Vale" [ref=e167] [cursor=pointer]: ⋯
+          - paragraph [ref=e168]: "Today’s build log: cleaned up state ownership, added search filtering, and made the composer actually fun to use. Tiny wins stack up fast."
+          - generic "Tags" [ref=e169]:
+            - generic [ref=e170]: "#typescript"
+            - generic [ref=e171]: "#frontend"
+            - generic [ref=e172]: "#devlog"
+          - generic [ref=e173]:
+            - button "♥ 158" [ref=e174] [cursor=pointer]
+            - button "💬 9" [ref=e175] [cursor=pointer]
+            - button "↻ 8" [ref=e176] [cursor=pointer]
+            - button "⌁ 18" [ref=e177] [cursor=pointer]
+        - article [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - generic [ref=e181]: SI
+              - generic [ref=e182]:
+                - heading "Sana Iyer" [level=4] [ref=e184]
+                - paragraph [ref=e185]: "@sana.iyer · 4h"
+            - button "More options for Sana Iyer" [ref=e186] [cursor=pointer]: ⋯
+          - paragraph [ref=e187]: The best collaboration tools feel quiet. They stay out of the way until you need them, then disappear again when the work flow gets moving.
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: Calm tools
+            - heading "UI should support momentum instead of demanding attention." [level=5] [ref=e191]
+          - generic "Tags" [ref=e192]:
+            - generic [ref=e193]: "#collaboration"
+            - generic [ref=e194]: "#productivity"
+          - generic [ref=e195]:
+            - button "♥ 421" [ref=e196] [cursor=pointer]
+            - button "💬 33" [ref=e197] [cursor=pointer]
+            - button "↻ 19" [ref=e198] [cursor=pointer]
+            - button "⌁ 78" [ref=e199] [cursor=pointer]

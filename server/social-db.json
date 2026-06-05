@@ -1,0 +1,158 @@
+{
+  "posts": [
+    {
+      "id": 101,
+      "author": "Avery Quinn",
+      "handle": "@avery.quinn",
+      "avatar": "AQ",
+      "time": "12m",
+      "createdAt": 1780649716252,
+      "content": "Shipped a tiny but mighty dashboard update today. The rule: every screen needs a clear focal point, a calm surface, and one delightful edge.",
+      "tags": [
+        "product",
+        "ui",
+        "ship"
+      ],
+      "following": true,
+      "featured": true,
+      "media": {
+        "title": "Launch note",
+        "subtitle": "A soft-glow layout can still feel energetic when the accent system is tight.",
+        "gradient": "linear-gradient(135deg, #111827 0%, #7c3aed 48%, #ec4899 100%)"
+      },
+      "likes": 382,
+      "comments": 42,
+      "reposts": 12,
+      "bookmarks": 65,
+      "liked": false,
+      "latestComment": {
+        "author": "You",
+        "text": "Looks great."
+      }
+    },
+    {
+      "id": 102,
+      "author": "Mila Stone",
+      "handle": "@mila.stone",
+      "avatar": "MS",
+      "time": "44m",
+      "createdAt": 1780647796252,
+      "content": "A good feed layout is mostly about rhythm: short headlines, generous spacing, and enough contrast to keep the eye moving without fatigue.",
+      "tags": [
+        "design",
+        "layout",
+        "accessibility"
+      ],
+      "following": false,
+      "media": {
+        "title": "Layout study",
+        "subtitle": "Grid, depth, and hierarchy working together instead of competing.",
+        "gradient": "linear-gradient(135deg, #0f172a 0%, #0ea5e9 45%, #22c55e 100%)"
+      },
+      "likes": 214,
+      "comments": 17,
+      "reposts": 26,
+      "bookmarks": 31,
+      "liked": true
+    },
+    {
+      "id": 103,
+      "author": "Noah Vale",
+      "handle": "@noah.vale",
+      "avatar": "NV",
+      "time": "2h",
+      "createdAt": 1780643236252,
+      "content": "Today’s build log: cleaned up state ownership, added search filtering, and made the composer actually fun to use. Tiny wins stack up fast.",
+      "tags": [
+        "typescript",
+        "frontend",
+        "devlog"
+      ],
+      "following": true,
+      "likes": 158,
+      "comments": 9,
+      "reposts": 8,
+      "bookmarks": 18,
+      "liked": false
+    },
+    {
+      "id": 104,
+      "author": "Sana Iyer",
+      "handle": "@sana.iyer",
+      "avatar": "SI",
+      "time": "4h",
+      "createdAt": 1780636036252,
+      "content": "The best collaboration tools feel quiet. They stay out of the way until you need them, then disappear again when the work flow gets moving.",
+      "tags": [
+        "collaboration",
+        "productivity"
+      ],
+      "following": false,
+      "featured": true,
+      "media": {
+        "title": "Calm tools",
+        "subtitle": "UI should support momentum instead of demanding attention.",
+        "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 50%, #f97316 100%)"
+      },
+      "likes": 421,
+      "comments": 33,
+      "reposts": 19,
+      "bookmarks": 78,
+      "liked": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "New mention",
+      "detail": "Mila Stone mentioned your last design thread.",
+      "time": "2m ago",
+      "tone": "info"
+    },
+    {
+      "id": 2,
+      "title": "Comment activity",
+      "detail": "Three new replies arrived on your featured post.",
+      "time": "18m ago",
+      "tone": "success"
+    },
+    {
+      "id": 3,
+      "title": "Community trend",
+      "detail": "#buildinpublic is climbing in your network.",
+      "time": "1h ago",
+      "tone": "warning"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Mila Stone",
+      "handle": "@mila.stone",
+      "lastMessage": "Can we turn this into a shared launch template?",
+      "unread": 2
+    },
+    {
+      "id": 2,
+      "name": "Noah Vale",
+      "handle": "@noah.vale",
+      "lastMessage": "The new feed feels much calmer on mobile.",
+      "unread": 0
+    },
+    {
+      "id": 3,
+      "name": "Pulse Design",
+      "handle": "@team.pulse",
+      "lastMessage": "Your dashboard concept is ready for review.",
+      "unread": 1
+    }
+  ],
+  "profile": {
+    "name": "Akshay Jain",
+    "handle": "@akshay.creates",
+    "bio": "Building social experiences with a focus on clarity, community, and fast iteration.",
+    "followers": "18.4K",
+    "following": "312",
+    "posts": "4"
+  }
+}

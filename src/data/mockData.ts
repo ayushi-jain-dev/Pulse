@@ -1,0 +1,151 @@
+import type { Post, Story, Suggestion, Trend } from "../types";
+
+export const stories: Story[] = [
+  {
+    id: 1,
+    name: "Ari",
+    handle: "@ari.design",
+    gradient: "linear-gradient(135deg, #7c3aed 0%, #ec4899 100%)",
+    live: true,
+  },
+  {
+    id: 2,
+    name: "Nora",
+    handle: "@nora.codes",
+    gradient: "linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)",
+  },
+  {
+    id: 3,
+    name: "Kian",
+    handle: "@kian.motion",
+    gradient: "linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)",
+  },
+  {
+    id: 4,
+    name: "Mira",
+    handle: "@mira.photos",
+    gradient: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)",
+  },
+  {
+    id: 5,
+    name: "Jules",
+    handle: "@jules.builds",
+    gradient: "linear-gradient(135deg, #8b5cf6 0%, #14b8a6 100%)",
+  },
+];
+
+export const suggestions: Suggestion[] = [
+  {
+    id: 1,
+    name: "Tara Singh",
+    handle: "@tara.social",
+    bio: "Product designer sharing daily UI experiments and startup notes.",
+  },
+  {
+    id: 2,
+    name: "Leo Park",
+    handle: "@leo.dev",
+    bio: "Frontend engineer posting TypeScript tips, patterns, and ship logs.",
+  },
+  {
+    id: 3,
+    name: "Zoya Khan",
+    handle: "@zoya.camera",
+    bio: "Visual storyteller with a focus on travel, food, and color grading.",
+  },
+];
+
+export const trends: Trend[] = [
+  { id: 1, label: "#buildinpublic", posts: "24.8K posts" },
+  { id: 2, label: "#reactnative", posts: "18.3K posts" },
+  { id: 3, label: "#designsystems", posts: "11.1K posts" },
+  { id: 4, label: "#typescript", posts: "9.4K posts" },
+];
+
+export const initialPosts: Post[] = [
+  {
+    id: 101,
+    author: "Avery Quinn",
+    handle: "@avery.quinn",
+    avatar: "AQ",
+    time: "12m",
+    createdAt: Date.now() - 12 * 60 * 1000,
+    content:
+      "Shipped a tiny but mighty dashboard update today. The rule: every screen needs a clear focal point, a calm surface, and one delightful edge.",
+    tags: ["product", "ui", "ship"],
+    following: true,
+    featured: true,
+    media: {
+      title: "Launch note",
+      subtitle: "A soft-glow layout can still feel energetic when the accent system is tight.",
+      gradient: "linear-gradient(135deg, #111827 0%, #7c3aed 48%, #ec4899 100%)",
+    },
+    likes: 382,
+    comments: 41,
+    reposts: 12,
+    bookmarks: 65,
+    liked: false,
+  },
+  {
+    id: 102,
+    author: "Mila Stone",
+    handle: "@mila.stone",
+    avatar: "MS",
+    time: "44m",
+    createdAt: Date.now() - 44 * 60 * 1000,
+    content:
+      "A good feed layout is mostly about rhythm: short headlines, generous spacing, and enough contrast to keep the eye moving without fatigue.",
+    tags: ["design", "layout", "accessibility"],
+    following: false,
+    media: {
+      title: "Layout study",
+      subtitle: "Grid, depth, and hierarchy working together instead of competing.",
+      gradient: "linear-gradient(135deg, #0f172a 0%, #0ea5e9 45%, #22c55e 100%)",
+    },
+    likes: 214,
+    comments: 17,
+    reposts: 26,
+    bookmarks: 31,
+    liked: true,
+  },
+  {
+    id: 103,
+    author: "Noah Vale",
+    handle: "@noah.vale",
+    avatar: "NV",
+    time: "2h",
+    createdAt: Date.now() - 2 * 60 * 60 * 1000,
+    content:
+      "Today’s build log: cleaned up state ownership, added search filtering, and made the composer actually fun to use. Tiny wins stack up fast.",
+    tags: ["typescript", "frontend", "devlog"],
+    following: true,
+    likes: 158,
+    comments: 9,
+    reposts: 8,
+    bookmarks: 18,
+    liked: false,
+  },
+  {
+    id: 104,
+    author: "Sana Iyer",
+    handle: "@sana.iyer",
+    avatar: "SI",
+    time: "4h",
+    createdAt: Date.now() - 4 * 60 * 60 * 1000,
+    content:
+      "The best collaboration tools feel quiet. They stay out of the way until you need them, then disappear again when the work flow gets moving.",
+    tags: ["collaboration", "productivity"],
+    following: false,
+    featured: true,
+    media: {
+      title: "Calm tools",
+      subtitle: "UI should support momentum instead of demanding attention.",
+      gradient: "linear-gradient(135deg, #0f172a 0%, #334155 50%, #f97316 100%)",
+    },
+    likes: 421,
+    comments: 33,
+    reposts: 19,
+    bookmarks: 78,
+    liked: false,
+  },
+];
