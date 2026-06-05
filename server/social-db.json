@@ -20,14 +20,14 @@
         "subtitle": "A soft-glow layout can still feel energetic when the accent system is tight.",
         "gradient": "linear-gradient(135deg, #111827 0%, #7c3aed 48%, #ec4899 100%)"
       },
-      "likes": 382,
-      "comments": 42,
+      "likes": 383,
+      "comments": 44,
       "reposts": 12,
       "bookmarks": 65,
-      "liked": false,
+      "liked": true,
       "latestComment": {
         "author": "You",
-        "text": "Looks great."
+        "text": "looks grat"
       }
     },
     {
@@ -148,8 +148,8 @@
     }
   ],
   "profile": {
-    "name": "Akshay Jain",
-    "handle": "@akshay.creates",
+    "name": "Ayushi Jain",
+    "handle": "@Ayushi.creates",
     "bio": "Building social experiences with a focus on clarity, community, and fast iteration.",
     "followers": "18.4K",
     "following": "312",
